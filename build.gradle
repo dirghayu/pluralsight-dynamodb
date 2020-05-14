@@ -24,5 +24,7 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok:1.18.12'
     testCompile group: 'com.almworks.sqlite4java', name: 'sqlite4java', version: '0.282'
     testCompile group: 'com.almworks.sqlite4java', name: 'libsqlite4java-osx', version: '1.0.392'
+    compile group: 'com.amazonaws', name: 'amazon-kinesis-client', version: '1.13.3'
+    compile group: 'com.amazonaws', name: 'dynamodb-streams-kinesis-adapter', version: '1.0.0'
 
 }
